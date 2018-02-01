@@ -1,0 +1,466 @@
+body {
+  background-image: url("../img/background1.2.png");
+  background-size: cover;
+  margin: 0;
+}
+
+nav {
+  background: #ac8b59;
+  border-style: solid;
+  border-color: black;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  width: 84%;
+  margin-left:  101.71px;
+  margin-right: 101.71px;
+  font-family: wermland Gothic;
+  font-size: 16px;
+}
+
+nav a {
+  color: #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+  display: inline-block;
+  background: #AC8B58;
+  font-size: 16px;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+nav li {
+  position: relative;
+  left: 28%;
+  display: inline;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+  ul {
+    padding:0;
+}
+
+  li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+  main {
+    position: absolute;
+    margin-top: 70px;
+    width: 100%;
+    color: white;
+}
+
+  .bodyunder  {
+    margin-left: 103.71px;
+    font-family: wermland Gothic;
+    font-size: 30px;
+    color: white;
+  }
+
+  section {
+    margin-left: 101.71px;
+    margin-right: 101.71px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contaktbar {
+    display: flex;
+    border-style: solid;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+
+  }
+
+  p .contakbar {
+    text-align: center;
+  }
+
+  .perbrand{
+    display: flex;
+  }
+
+  p .perbrand {
+    text-align: center;
+    padding: 10px;
+    margin-left: 101.71px;
+    margin-right: 101.71px;
+
+  }
+
+  .pertest1 {
+    padding-left: 10px;
+    margin-right: 200px;
+  }
+
+  .ealtext {
+    display: block;
+    background-color: ;
+    border: solid;
+    margin: auto;
+    margin-top:20px;
+    margin-left: 101.71px;
+    height: 250px;
+    width: 84%;
+  }
+
+  .fredtext {
+    display: block;
+    background-color: ;
+    border-style: solid;
+    margin: auto;
+    margin-top:20px;
+    margin-left: 0px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .movtext {
+    display: block;
+    background-color: ;
+    border: solid;
+    margin: auto;
+    margin-top:20px;
+    margin-left: 0px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .lifetext {
+    display: block;
+    background-color: ;
+    border-style: solid;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .text1 {
+    position: absolute;
+    display:block;
+    width: 945px;
+    height: 245px;
+    margin-left: 260px;
+    margin-top: 2px;
+    color: white;
+  }
+
+  .text2 {
+    position: absolute;
+    display:block;
+    width: 945px;
+    height: 245px;
+    margin-left: 260px;
+    margin-top: 2px;
+    color: white;
+  }
+
+  .text3 {
+    position: absolute;
+    display:block;
+    width: 945px;
+    height: 245px;
+    margin-left: 260px;
+    margin-top: 2px;
+    color: white;
+  }
+
+  .text4 {
+    position: absolute;
+    display:block;
+    width: 945px;
+    height: 245px;
+    margin-left: 260px;
+    margin-top: 2px;
+    color: white;
+  }
+
+  .mainskr {
+    margin-left: 103.71px;
+    padding-top: 10px;
+    font-family: wermland Gothic;
+}
+
+  .active {
+    color: lightblue;
+}
+
+  .wrapper {
+    background: #ffffff;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+  .welkommen{
+    margin-left: 110.71px;
+    font-size: 20px;
+    font-family: Wermland Gothic;
+}
+
+  .pier1 {
+    display: flex;
+    position: relative;
+    height: 300px;
+    padding-bottom: 50px;
+  }
+
+  .piertext{
+    padding-left: 10px;
+  }
+
+  .skib1 {
+    display: flex;
+    position: relative;
+    height: 300px;
+    padding-bottom: 50px;
+  }
+
+  .skibtext{
+    padding-left: 10px;
+  }
+
+  .sun1 {
+    display: flex;
+    position: relative;
+    height: 300px;
+    padding-bottom: 50px;
+  }
+
+  .suntext{
+    padding-left: 10px;
+  }
+
+  .emu1{
+    display: flex;
+    position: relative;
+    height: 300px;
+    padding-bottom: 50px;
+  }
+
+  .emutext {
+    padding-left: 10px;
+  }
+
+  #knap1 {
+    display: block;
+    height: 20px;
+    width:  60px;
+    margin-left: 170px;
+    padding-bottom: 50px;
+}
+
+#knap2 {
+  display: block;
+  height: 20px;
+  width:  60px;
+  margin-left: 170px;
+  padding-bottom: 50px;
+}
+
+#knap3 {
+  display: block;
+  height: 20px;
+  width:  60px;
+  margin-left: 170px;
+  padding-bottom: 50px;
+}
+
+#knap4 {
+  display: block;
+  height: 20px;
+  width:  60px;
+  margin-left: 170px;
+  padding-bottom: 50px;
+}
+
+  #projekt2 {
+    display: block;
+    margin:auto;
+    margin-top: 100px;
+}
+
+  #projekt {
+    display: block;
+    margin: auto;
+}
+
+  #mig {
+    height: 500px;
+    width: 400px;
+    border-style:solid;
+}
+
+  #pier {
+    height: 300px;
+    width: 350px;
+    border-style:solid;
+}
+  #skib {
+    height: 300px;
+    Width: 350px;
+    border-style:solid;
+}
+  #emu {
+    height: 300px;
+    width: 350px;
+    border-style:solid;
+}
+  #sun {
+    height: 300px;
+    width: 350px;
+    border-style:solid;
+}
+
+  #banner {
+    margin: auto;
+    width: 90%;
+    display: block;
+}
+
+  #logo {
+    height: 48px;
+    position: left;
+}
+
+  #eal {
+    border-style: solid;
+
+    margin: 25px;
+    margin-bottom: 0;
+}
+
+  #fred {
+    border-style: solid;
+
+    margin:25px;
+    margin-bottom: 0;
+}
+
+  #mov {
+    border-style: solid;
+
+    margin:25px;
+    margin-bottom: 0;
+}
+
+  #life {
+    height:250px;
+    width: 250px;
+    border-style: solid;
+
+    margin: 25px;
+    margin-bottom: 0;
+}
+
+#eal2 {
+  border-style: solid;
+  margin: 25px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+#fred2 {
+  border-style: solid;
+
+  margin:25px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+#mov2 {
+  border-style: solid;
+
+  margin:25px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+#life2 {
+  height:250px;
+  width: 250px;
+  border-style: solid;
+  margin: 25px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+  #contakt {
+
+  }
+
+  .ealbox {
+    display: block;
+    background-color: #AC8B58;
+    height: 150px;
+    width: 250px;
+    margin-top: 0;
+    position: relative;
+    top:-4px;
+    left: 25px;
+    border-style: solid;
+}
+
+  .fredbox {
+    display: block;
+    background-color: #AC8B58;
+    height: 150px;
+    width: 250px;
+    margin-top: 0;
+    position: relative;
+    top:-4px;
+    left: 25px;
+    border-style: solid;
+}
+
+  .movbox {
+    display: block;
+    background-color: #AC8B58;
+    height: 150px;
+    width: 250px;
+    margin-top: 0;
+    position: relative;
+    top:-4px;
+    left: 25px;
+    border-style: solid;
+}
+
+  .lifebox {
+    display: block;
+    background-color: #AC8B58;
+    height: 150px;
+    width: 250px;
+    margin-top: 0;
+    position: relative;
+    top:-4px;
+    left: 25px;
+    border-style: solid;
+}
